@@ -11,7 +11,7 @@
 ##Next 3 set of functions, first returns the cached Matrix defined above, secondly sets cached inverse matrix to 'I' and lastly returns inverse 'I' cached in makeVector environment
 ##makeCacheMatrix  finally returns the list of functions defined in makeCacheMatrix
 
-makeCacheMatrix <- function(x = matrix()) {
+makeCacheMatrix  <- function(x = matrix()) {
 I <- NULL
         set <- function(x) {
                 x <<- x
